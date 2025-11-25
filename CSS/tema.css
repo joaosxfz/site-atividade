@@ -1,5 +1,8 @@
 body {
-    background-color:rgb(177, 77, 5);
+    background-image: url(../IMG/cozinha4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #topo {
@@ -18,15 +21,68 @@ body {
     gap: 20px;
 }
 
+#menu a:hover {
+    color:chocolate;
+}
+
 #titulo {
     text-align: center;
+    margin-top: 100;
+    font-size: 23;
 }
 
 #frase {
-    margin-top: 100px;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.projetos {
+    width: 80%;
+    margin: 40px auto;
     text-align: center;
 }
 
-#gif {
+.projetos h1 {
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+.projetos .sub {
+    margin-bottom: 40px;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.card {
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.card p {
+    margin-top: 6px;
+    font-size: 16px;
+}
+
+#titulo2 {
     text-align: center;
+    margin-top: 100;
+    font-size: 23;
+}
+
+#nome {
+    
 }
